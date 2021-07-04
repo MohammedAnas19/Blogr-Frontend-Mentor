@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    min-width: 375px;
+
+}
+body{
+    font-size: 1rem;
+    letter-spacing:1px;
+    
+    font-weight: 600;
+    font-family: 'Overpass', sans-serif;
+    position: relative
+    // background:linear-gradient(to right,$vdk-gr-blue,$vdk-dstrtd-blue)
+}
+
+a,a:visited,:focus{
+    text-decoration:none;
+    color:$white;  
+    font-weight: 600;
+}
+
+h1{
+    font-size:1.625rem;
+    font-weight: 600;
+}
+.btn{
+   
+    border-radius:2rem;
+    
+    font-size: 0.75rem;
+    padding:1.1875rem 1.0625rem;
+
+}
+.btn:not(last-child){
+    margin-left: 1.08125rem;
+}
+.btn-white{
+    background-color:$white;
+    color:$lt-red !important;
+}
+
+.btn-outline{
+    background-color:transparent;
+    color:$white;
+    border:1px solid $white;
+}
+
+.rotate{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg) ;
+    -ms-transform: rotate(180deg) ;
+  }
+
+  .rotate-90{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg) ;
+    -ms-transform: rotate(90deg) ;
+  }
